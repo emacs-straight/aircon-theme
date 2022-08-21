@@ -192,6 +192,9 @@
  '(diff-removed           ((t (:background "#ffcccc" :foreground "#4b1313"))))
  '(diff-indicator-removed ((t (:inherit (diff-removed bold)))))
  '(diff-refine-removed    ((t (:background "#ef9d9d" :foreground "#3a0a0a "))))
+ '(diff-error             ((t (:inherit (error)))))
+
+ '(diary                  ((t (:inherit (aircon-header)))))
 
  '(change-log-date           ((t (:inherit (aircon-scorpion)))))
  '(change-log-list           ((t (:inherit (aircon-eden)))))
@@ -345,6 +348,5 @@
                (file-name-as-directory (file-name-directory load-file-name))))
 
 (provide-theme 'aircon)
-(provide 'aircon-theme)
 
 ;;; aircon-theme.el ends here
